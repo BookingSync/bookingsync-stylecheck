@@ -9,12 +9,8 @@ end
 namespace :bookingsync do
   namespace :stylecheck do
     desc 'Run RuboCop'
-    RuboCop::RakeTask.new
-
-    desc 'update RuboCop config'
-    task :update_rubocop_config do
-      BookingSync::Stylecheck::RubocopHelpers.update_config
+    RuboCop::RakeTask.new do |task|
+      task.options = ['-c', BookingSync::Stylecheck::RubocopHelpers.config]
     end
   end
-  Rake::Task['bookingsync:stylecheck:rubocop'].enhance([:update_rubocop_config])
 end

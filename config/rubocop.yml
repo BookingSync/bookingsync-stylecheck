@@ -49,7 +49,7 @@ Style/Blocks:
   Enabled: false
 
 Style/BracesAroundHashParameters:
-  Enabled: false
+  Enabled: true
 
 Style/CaseEquality:
   Enabled: false
@@ -163,7 +163,7 @@ Style/GuardClause:
   Enabled: false
 
 Style/HashSyntax:
-  Enabled: false
+  Enabled: true
 
 Style/IfUnlessModifier:
   Enabled: false

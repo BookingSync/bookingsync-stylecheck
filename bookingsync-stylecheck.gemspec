@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description   = 'Wraps rubocop for simple and consisten experience'
   s.authors       = ['Piotr Marciniak']
   s.email         = 'mandaryyyn@gmail.com'
-  s.files         = Dir["{config,lib}/**/*", 'MIT-LICENSE', 'README.md']
+  s.files         = Dir['{config,lib}/**/*', 'MIT-LICENSE', 'README.md']
   s.homepage      = 'http://gihub.com/BookingSync/bookingsync-stylecheck'
   s.license       = 'MIT'
 
