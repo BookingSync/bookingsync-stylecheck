@@ -277,16 +277,16 @@ Style/RaiseArgs:
   Enabled: false
 
 Style/RedundantBegin:
-  Enabled: false
+  Enabled: true
 
 Style/RedundantException:
-  Enabled: false
+  Enabled: true
 
 Style/RedundantReturn:
-  Enabled: false
+  Enabled: true
 
 Style/RedundantSelf:
-  Enabled: false
+  Enabled: true
 
 Style/RegexpLiteral:
   Enabled: false
