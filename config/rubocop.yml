@@ -313,22 +313,22 @@ Style/SingleSpaceBeforeFirstArg:
   Enabled: false
 
 Style/SpaceAfterColon:
-  Enabled: false
+  Enabled: true
 
 Style/SpaceAfterComma:
-  Enabled: false
+  Enabled: true
 
 Style/SpaceAfterControlKeyword:
-  Enabled: false
+  Enabled: true
 
 Style/SpaceAfterMethodName:
-  Enabled: false
+  Enabled: true
 
 Style/SpaceAfterNot:
-  Enabled: false
+  Enabled: true
 
 Style/SpaceAfterSemicolon:
-  Enabled: false
+  Enabled: true
 
 Style/SpaceBeforeBlockBraces:
   Enabled: false
@@ -346,13 +346,13 @@ Style/SpaceInsideBlockBraces:
   Enabled: false
 
 Style/SpaceAroundEqualsInParameterDefault:
-  Enabled: false
+  Enabled: true
 
 Style/SpaceAroundOperators:
-  Enabled: false
+  Enabled: true
 
 Style/SpaceBeforeModifierKeyword:
-  Enabled: false
+  Enabled: true
 
 Style/SpaceInsideBrackets:
   Enabled: false
@@ -379,7 +379,7 @@ Style/SymbolProc:
   Enabled: false
 
 Style/Tab:
-  Enabled: false
+  Enabled: true
 
 Style/TrailingBlankLines:
   Enabled: true
