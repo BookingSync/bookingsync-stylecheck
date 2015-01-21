@@ -382,13 +382,13 @@ Style/Tab:
   Enabled: false
 
 Style/TrailingBlankLines:
-  Enabled: false
+  Enabled: true
 
 Style/TrailingComma:
-  Enabled: false
+  Enabled: true
 
 Style/TrailingWhitespace:
-  Enabled: false
+  Enabled: true
 
 Style/TrivialAccessors:
   Enabled: false
