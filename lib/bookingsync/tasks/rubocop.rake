@@ -3,7 +3,7 @@ require 'fileutils'
 
 desc 'run bookingsync stylecheck'
 task :style do
-  Rake::Task['bookingsync:stylecheck:rubocop'].invoke
+  Rake::Task['bookingsync:stylecheck:rubocop:auto_correct'].invoke
 end
 
 namespace :bookingsync do
