@@ -7,8 +7,8 @@ namespace :style do
       options = ['--rails', '--auto-correct']
       options += ['--fail-level', 'refactor']
       options += ['-c', BookingSync::Stylecheck::RubocopHelpers.config]
-      sh "bundle exec rubocop #{options.join(' ')}" do |ok, res|
-        abort 'Fix code style errors' if !ok
+      sh "bundle exec rubocop #{options.join(' ')}" do |ok, _res|
+        abort 'Fix code style errors' unless ok
       end
     end
 
@@ -17,8 +17,8 @@ namespace :style do
       options = ['--rails']
       options += ['--fail-level', 'refactor']
       options += ['-c', BookingSync::Stylecheck::RubocopHelpers.config]
-      sh "bundle exec rubocop #{options.join(' ')}" do |ok, res|
-        abort 'Fix code style errors' if !ok
+      sh "bundle exec rubocop #{options.join(' ')}" do |ok, _res|
+        abort 'Fix code style errors' unless ok
       end
     end
   end

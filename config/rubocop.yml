@@ -1,7 +1,7 @@
 # These are all the cops that are enabled in the default configuration.
 
 Style/AccessModifierIndentation:
-  Enabled: false
+  Enabled: true
 
 Style/AccessorMethodName:
   Enabled: false
@@ -16,6 +16,7 @@ Style/AlignHash:
   Enabled: false
 
 Style/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
   Enabled: false
 
 Style/AndOr:
@@ -199,7 +200,7 @@ Style/LineEndConcatenation:
   Enabled: false
 
 Style/MethodCallParentheses:
-  Enabled: false
+  Enabled: true
 
 Style/MethodDefParentheses:
   Enabled: false
@@ -304,10 +305,10 @@ Style/SignalException:
   Enabled: false
 
 Style/SingleLineBlockParams:
-  Enabled: false
+  Enabled: true
 
 Style/SingleLineMethods:
-  Enabled: false
+  Enabled: true
 
 Style/SingleSpaceBeforeFirstArg:
   Enabled: false
@@ -343,7 +344,7 @@ Style/SpaceBeforeSemicolon:
   Enabled: false
 
 Style/SpaceInsideBlockBraces:
-  Enabled: false
+  Enabled: true
 
 Style/SpaceAroundEqualsInParameterDefault:
   Enabled: true
@@ -355,13 +356,13 @@ Style/SpaceBeforeModifierKeyword:
   Enabled: true
 
 Style/SpaceInsideBrackets:
-  Enabled: false
+  Enabled: true
 
 Style/SpaceInsideHashLiteralBraces:
   Enabled: true
 
 Style/SpaceInsideParens:
-  Enabled: false
+  Enabled: true
 
 Style/SpaceInsideRangeLiteral:
   Enabled: false
