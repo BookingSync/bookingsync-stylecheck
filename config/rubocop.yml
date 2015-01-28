@@ -51,6 +51,7 @@ Style/Blocks:
 
 Style/BracesAroundHashParameters:
   Enabled: true
+  EnforcedStyle: context_dependent
 
 Style/CaseEquality:
   Enabled: false
