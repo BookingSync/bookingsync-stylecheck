@@ -46,9 +46,6 @@ Style/BlockComments:
 Style/BlockEndNewline:
   Enabled: false
 
-Style/Blocks:
-  Enabled: false
-
 Style/BracesAroundHashParameters:
   Enabled: true
   EnforcedStyle: context_dependent
@@ -399,9 +396,6 @@ Style/UnneededCapitalW:
   Enabled: false
 
 Style/UnneededPercentQ:
-  Enabled: false
-
-Style/UnneededPercentX:
   Enabled: false
 
 Style/VariableInterpolation:
