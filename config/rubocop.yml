@@ -1,4 +1,6 @@
 # These are all the cops that are enabled in the default configuration.
+AllCops:
+  DisabledByDefault: true
 
 Style/AccessModifierIndentation:
   Enabled: true
