@@ -1,6 +1,7 @@
 # These are all the cops that are enabled in the default configuration.
 AllCops:
   DisabledByDefault: true
+  TargetRubyVersion: 2.2
 
 Style/AccessModifierIndentation:
   Enabled: true
