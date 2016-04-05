@@ -311,7 +311,7 @@ Style/SingleLineBlockParams:
 Style/SingleLineMethods:
   Enabled: true
 
-Style/SingleSpaceBeforeFirstArg:
+Style/SpaceBeforeFirstArg:
   Enabled: false
 
 Style/SpaceAfterColon:
@@ -320,7 +320,7 @@ Style/SpaceAfterColon:
 Style/SpaceAfterComma:
   Enabled: true
 
-Style/SpaceAfterControlKeyword:
+Style/SpaceAroundKeyword:
   Enabled: true
 
 Style/SpaceAfterMethodName:
@@ -353,9 +353,6 @@ Style/SpaceAroundEqualsInParameterDefault:
 Style/SpaceAroundOperators:
   Enabled: true
 
-Style/SpaceBeforeModifierKeyword:
-  Enabled: true
-
 Style/SpaceInsideBrackets:
   Enabled: true
 
@@ -386,7 +383,7 @@ Style/Tab:
 Style/TrailingBlankLines:
   Enabled: true
 
-Style/TrailingComma:
+Style/TrailingCommaInArguments:
   Enabled: true
 
 Style/TrailingWhitespace:
@@ -526,9 +523,6 @@ Lint/RescueException:
 Lint/ShadowingOuterLocalVariable:
   Enabled: false
 
-Lint/SpaceBeforeFirstArg:
-  Enabled: false
-
 Lint/StringConversionInInterpolation:
   Enabled: false
 
@@ -565,9 +559,6 @@ Lint/Void:
 ##################### Rails ##################################
 
 Rails/ActionFilter:
-  Enabled: false
-
-Rails/DefaultScope:
   Enabled: false
 
 Rails/Delegate:
