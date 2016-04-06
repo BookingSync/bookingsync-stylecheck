@@ -3,7 +3,11 @@ AllCops:
   DisabledByDefault: true
   TargetRubyVersion: 2.2
   Exclude:
-    - !ruby/regexp /schema\.rb$/
+    - "db/**/*"
+    - "tmp/**/*"
+    - "vendor/**/*"
+    - "bin/**/*"
+    - "log/**/*"
 
 Style/AccessModifierIndentation:
   Enabled: true
