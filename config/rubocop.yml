@@ -3,7 +3,7 @@ AllCops:
   DisabledByDefault: true
   TargetRubyVersion: 2.2
   Exclude:
-    - 'db/**/*'
+    - !ruby/regexp /schema\.rb$/
 
 Style/AccessModifierIndentation:
   Enabled: true
