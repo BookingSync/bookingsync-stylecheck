@@ -29,7 +29,7 @@ Style/AlignParameters:
   Enabled: false
 
 Style/AndOr:
-  Enabled: false
+  Enabled: true
 
 Style/ArrayJoin:
   Enabled: false
@@ -63,7 +63,7 @@ Style/CaseEquality:
   Enabled: false
 
 Style/CaseIndentation:
-  Enabled: false
+  Enabled: true
 
 Style/CharacterLiteral:
   Enabled: false
@@ -87,7 +87,7 @@ Style/ColonMethodCall:
   Enabled: false
 
 Style/CommentAnnotation:
-  Enabled: false
+  Enabled: true
 
 Style/CommentIndentation:
   Enabled: false
@@ -98,14 +98,11 @@ Style/ConstantName:
 Style/DefWithParentheses:
   Enabled: false
 
-Style/DeprecatedHashMethods:
-  Enabled: false
-
 Style/Documentation:
   Enabled: false
 
 Style/DotPosition:
-  Enabled: false
+  Enabled: true
 
 Style/DoubleNegation:
   Enabled: false
@@ -117,31 +114,29 @@ Style/ElseAlignment:
   Enabled: false
 
 Style/EmptyElse:
-  Enabled: false
+  Enabled: true
 
 Style/EmptyLineBetweenDefs:
-  Enabled: false
-
-Style/EmptyLines:
-  Enabled: false
-
-Style/EmptyLinesAroundAccessModifier:
-  Enabled: false
+  Enabled: true
 
 Style/EmptyLinesAroundBlockBody:
-  Enabled: false
+  Enabled: true
 
 Style/EmptyLinesAroundClassBody:
-  Enabled: false
+  Enabled: true
 
 Style/EmptyLinesAroundModuleBody:
-  Enabled: false
+  Enabled: true
 
 Style/EmptyLinesAroundMethodBody:
-  Enabled: false
+  Enabled: true
 
 Style/EmptyLiteral:
   Enabled: false
+
+Style/Encoding:
+  Enabled: true
+  EnforcedStyle: never
 
 Style/EndBlock:
   Enabled: false
@@ -180,10 +175,10 @@ Style/IfWithSemicolon:
   Enabled: false
 
 Style/IndentationConsistency:
-  Enabled: false
+  Enabled: true
 
 Style/IndentationWidth:
-  Enabled: false
+  Enabled: true
 
 Style/IndentArray:
   Enabled: false
@@ -375,7 +370,9 @@ Style/SpecialGlobalVars:
   Enabled: false
 
 Style/StringLiterals:
-  Enabled: false
+  EnforcedStyle: double_quotes
+  ConsistentQuotesInMultiline: true
+  Enabled: true
 
 Style/StringLiteralsInInterpolation:
   Enabled: false
