@@ -13,20 +13,21 @@ Style/AccessModifierIndentation:
   Enabled: true
 
 Style/AccessorMethodName:
-  Enabled: false
+  Enabled: true
 
 Style/Alias:
-  Enabled: false
+  Enabled: true
 
 Style/AlignArray:
-  Enabled: false
+  Enabled: true
 
 Style/AlignHash:
-  Enabled: false
+  EnforcedLastArgumentHashStyle: always_ignore
+  Enabled: true
 
 Style/AlignParameters:
   EnforcedStyle: with_fixed_indentation
-  Enabled: false
+  Enabled: true
 
 Style/AndOr:
   Enabled: true
