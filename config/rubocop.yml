@@ -308,7 +308,7 @@ Style/SignalException:
   Enabled: false
 
 Style/SingleLineBlockParams:
-  Enabled: true
+  Enabled: false
 
 Style/SingleLineMethods:
   Enabled: true
