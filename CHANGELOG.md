@@ -5,5 +5,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
-### Added
+
+## 0.0.4
+
 - rake task that accepts custom commands to be passed to Rubocop

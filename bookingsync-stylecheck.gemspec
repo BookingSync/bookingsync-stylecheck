@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'bookingsync-stylecheck'
-  s.version       = '0.0.3'
+  s.version       = '0.0.4'
   s.date          = '2015-01-19'
   s.summary       = 'Automatic style check for bookingsync projects'
   s.description   = 'Wraps rubocop for simple and consisten experience'
