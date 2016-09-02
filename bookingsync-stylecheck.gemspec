@@ -11,5 +11,5 @@ Gem::Specification.new do |s|
   s.license       = 'MIT'
 
   s.add_dependency 'rubocop', '~> 0.41.0'
-  s.add_dependency 'railties', '~> 4'
+  s.add_dependency 'railties', '> 4'
 end
