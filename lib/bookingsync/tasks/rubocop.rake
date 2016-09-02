@@ -21,6 +21,18 @@ namespace :style do
         abort 'Fix code style errors' unless ok
       end
     end
+
+    desc "Run RuboCop using the BookingSync config and concatenate custom commands"
+    task :custom, [:command_string, :no_fail] do |t, args|
+      args[:no_fail] ||= false
+
+      options = ['--rails', '--fail-level', 'refactor']
+      options += ['-c', BookingSync::Stylecheck::RubocopHelpers.config]
+      options += [args[:command_string]]
+      sh "bundle exec rubocop #{options.join(' ')}" do |ok, res|
+        abort 'Fix code style errors' if !args[:no_fail] && !ok
+      end
+    end
   end
 end
 
