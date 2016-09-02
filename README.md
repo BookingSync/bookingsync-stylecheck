@@ -6,6 +6,18 @@ This gem should streamline using of rubocop and potentially other automated styl
 
 Just add to gemfile and new rake task should be available
 
-* `bundle exec rake style`
+# Tasks
+
+## Default
+
+`bundle exec rake style`
 
 This for now just prepares a rubocop config and runs the rubocop check
+
+## Custom
+
+The first argument will be concatenated to the commands that Rubocop receives.
+The second argument, when set to true, makes the task always return with success.
+For example:
+
+`bundle exec rake style:rubocop:custom[--auto-correct app/controllers/application_controller.rb, true]`
