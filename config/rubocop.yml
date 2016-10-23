@@ -34,59 +34,59 @@ Style/AndOr:
   Enabled: true
 
 Style/ArrayJoin:
-  Enabled: false
+  Enabled: true
 
 Style/AsciiComments:
-  Enabled: false
+  Enabled: true
 
 Style/AsciiIdentifiers:
-  Enabled: false
+  Enabled: true
 
 Style/Attr:
-  Enabled: false
+  Enabled: true
 
 Style/BeginBlock:
-  Enabled: false
+  Enabled: true
 
 Style/BarePercentLiterals:
-  Enabled: false
+  Enabled: true
 
 Style/BlockComments:
-  Enabled: false
+  Enabled: true
 
 Style/BlockEndNewline:
-  Enabled: false
+  Enabled: true
 
 Style/BracesAroundHashParameters:
   Enabled: true
   EnforcedStyle: context_dependent
 
 Style/CaseEquality:
-  Enabled: false
+  Enabled: true
 
 Style/CaseIndentation:
   Enabled: true
 
 Style/CharacterLiteral:
-  Enabled: false
+  Enabled: true
 
 Style/ClassAndModuleCamelCase:
-  Enabled: false
+  Enabled: true
 
 Style/ClassAndModuleChildren:
   Enabled: false
 
 Style/ClassCheck:
-  Enabled: false
+  Enabled: true
 
 Style/ClassMethods:
-  Enabled: false
+  Enabled: true
 
 Style/ClassVars:
-  Enabled: false
+  Enabled: true
 
 Style/ColonMethodCall:
-  Enabled: false
+  Enabled: true
 
 Style/CommentAnnotation:
   Enabled: true
@@ -98,7 +98,7 @@ Style/ConstantName:
   Enabled: false
 
 Style/DefWithParentheses:
-  Enabled: false
+  Enabled: true
 
 Style/Documentation:
   Enabled: false
