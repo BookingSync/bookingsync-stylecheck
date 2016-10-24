@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bookingsync-stylecheck (0.0.4)
+    bookingsync-stylecheck (0.0.5)
       railties (> 4)
       rubocop (~> 0.41.0)
 

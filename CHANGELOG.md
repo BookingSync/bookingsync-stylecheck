@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## 0.0.5
+
 - prefer alias_method
 - enable vaious more cops
 - add some comment cops, disable FrozenStringLiteralComment and InlineComment
