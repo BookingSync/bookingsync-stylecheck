@@ -92,7 +92,7 @@ Style/CommentAnnotation:
   Enabled: true
 
 Style/CommentIndentation:
-  Enabled: false
+  Enabled: true
 
 Style/ConstantName:
   Enabled: false
@@ -161,6 +161,9 @@ Style/For:
 Style/FormatString:
   Enabled: false
 
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
 Style/GlobalVars:
   Enabled: false
 
@@ -191,6 +194,9 @@ Style/IndentHash:
 Style/InfiniteLoop:
   Enabled: false
 
+Style/InlineComment:
+  Enabled: false
+
 Style/Lambda:
   Enabled: false
 
@@ -198,7 +204,7 @@ Style/LambdaCall:
   Enabled: false
 
 Style/LeadingCommentSpace:
-  Enabled: false
+  Enabled: true
 
 Style/LineEndConcatenation:
   Enabled: false
