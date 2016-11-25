@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+- fix release timestamps
+
 ## 0.0.5
 
 - prefer alias_method
