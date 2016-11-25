@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 
 - fix release timestamps
+- run checks on this gem
+- enable to run on non railties projects and other gems
 
 ## 0.0.5
 

@@ -8,6 +8,18 @@ Just add to gemfile and new rake task should be available
 
 # Tasks
 
+## Rails
+
+For rails projects the rake tasks should be added automatically through railties.
+
+## Non rails
+
+For non rails and gems add the following snippet to `Rakefile`
+```ruby
+require "bookingsync/stylecheck"
+load "bookingsync/tasks/rubocop.rake"
+```
+
 ## Default
 
 `bundle exec rake style`

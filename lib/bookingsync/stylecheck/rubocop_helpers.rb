@@ -1,4 +1,4 @@
-require 'fileutils'
+require "fileutils"
 
 module BookingSync
   module Stylecheck
@@ -6,7 +6,7 @@ module BookingSync
     module RubocopHelpers
       class << self
         def config
-          File.join(BookingSync::Stylecheck.root, 'config', 'rubocop.yml')
+          File.join(BookingSync::Stylecheck.root, "config", "rubocop.yml")
         end
       end
     end
