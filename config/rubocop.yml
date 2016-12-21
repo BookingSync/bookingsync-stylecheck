@@ -1,7 +1,9 @@
 # These are all the cops that are enabled in the default configuration.
 AllCops:
   DisabledByDefault: true
-  TargetRubyVersion: 2.2
+  # If .ruby-version exists and it contains an MRI version it is used.
+  # Otherwise we fallback to the oldest officially supported Ruby version.
+  TargetRubyVersion: ~
   Exclude:
     - "db/**/*"
     - "tmp/**/*"
