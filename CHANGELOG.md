@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## 0.0.7
+- take TargetRubyVersion from .ruby-version file
+
 ## 0.0.6
 
 - fix release timestamps
