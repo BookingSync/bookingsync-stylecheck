@@ -99,6 +99,9 @@ Style/DefWithParentheses:
 Style/DotPosition:
   Enabled: true
 
+Style/ElseAlignment:
+  Enabled: true
+
 Style/EmptyElse:
   Enabled: true
 
@@ -202,4 +205,8 @@ Style/TrailingCommaInArguments:
   Enabled: true
 
 Style/TrailingWhitespace:
+  Enabled: true
+
+Lint/EndAlignment:
+  AlignWith: variable
   Enabled: true
