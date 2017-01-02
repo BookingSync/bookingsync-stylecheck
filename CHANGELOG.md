@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+- add --display-cop-names options for cleaner output
 - update Rubocop to recent version
 - use DisabledByDefault: true and remove unnecessary config entries
 
