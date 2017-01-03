@@ -4,7 +4,7 @@ namespace :style do
   namespace :rubocop do
     desc "Run RuboCop with auto_correct"
     task :with_auto_correct do
-      options = ["--rails", "--auto-correct"]
+      options = ["--rails", "--auto-correct", "--display-cop-names"]
       options += ["--fail-level", "refactor"]
       options += ["-c", BookingSync::Stylecheck::RubocopHelpers.config]
       sh "bundle exec rubocop #{options.join(' ')}" do |ok, _res|
@@ -14,7 +14,7 @@ namespace :style do
 
     desc "Run RuboCop without auto_correct"
     task :without_auto_correct do
-      options = ["--rails"]
+      options = ["--rails", "--display-cop-names"]
       options += ["--fail-level", "refactor"]
       options += ["-c", BookingSync::Stylecheck::RubocopHelpers.config]
       sh "bundle exec rubocop #{options.join(' ')}" do |ok, _res|
@@ -26,7 +26,7 @@ namespace :style do
     task :custom, [:command_string, :no_fail] do |t, args|
       args[:no_fail] ||= false
 
-      options = ["--rails", "--fail-level", "refactor"]
+      options = ["--rails", "--fail-level", "refactor", "--display-cop-names"]
       options += ["-c", BookingSync::Stylecheck::RubocopHelpers.config]
       options += [args[:command_string]]
       sh "bundle exec rubocop #{options.join(' ')}" do |ok, res|

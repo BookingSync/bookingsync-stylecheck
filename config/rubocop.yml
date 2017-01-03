@@ -75,9 +75,6 @@ Style/CharacterLiteral:
 Style/ClassAndModuleCamelCase:
   Enabled: true
 
-Style/ClassAndModuleChildren:
-  Enabled: false
-
 Style/ClassCheck:
   Enabled: true
 
@@ -96,26 +93,14 @@ Style/CommentAnnotation:
 Style/CommentIndentation:
   Enabled: true
 
-Style/ConstantName:
-  Enabled: false
-
 Style/DefWithParentheses:
   Enabled: true
-
-Style/Documentation:
-  Enabled: false
 
 Style/DotPosition:
   Enabled: true
 
-Style/DoubleNegation:
-  Enabled: false
-
-Style/EachWithObject:
-  Enabled: false
-
 Style/ElseAlignment:
-  Enabled: false
+  Enabled: true
 
 Style/EmptyElse:
   Enabled: true
@@ -135,51 +120,12 @@ Style/EmptyLinesAroundModuleBody:
 Style/EmptyLinesAroundMethodBody:
   Enabled: true
 
-Style/EmptyLiteral:
-  Enabled: false
-
 Style/Encoding:
   Enabled: true
   EnforcedStyle: never
 
-Style/EndBlock:
-  Enabled: false
-
-Style/EndOfLine:
-  Enabled: false
-
-Style/EvenOdd:
-  Enabled: false
-
-Style/FileName:
-  Enabled: false
-
-Style/FlipFlop:
-  Enabled: false
-
-Style/For:
-  Enabled: false
-
-Style/FormatString:
-  Enabled: false
-
-Style/FrozenStringLiteralComment:
-  Enabled: false
-
-Style/GlobalVars:
-  Enabled: false
-
-Style/GuardClause:
-  Enabled: false
-
 Style/HashSyntax:
   Enabled: true
-
-Style/IfUnlessModifier:
-  Enabled: false
-
-Style/IfWithSemicolon:
-  Enabled: false
 
 Style/IndentationConsistency:
   Enabled: true
@@ -187,107 +133,11 @@ Style/IndentationConsistency:
 Style/IndentationWidth:
   Enabled: true
 
-Style/IndentArray:
-  Enabled: false
-
-Style/IndentHash:
-  Enabled: false
-
-Style/InfiniteLoop:
-  Enabled: false
-
-Style/InlineComment:
-  Enabled: false
-
-Style/Lambda:
-  Enabled: false
-
-Style/LambdaCall:
-  Enabled: false
-
 Style/LeadingCommentSpace:
   Enabled: true
 
-Style/LineEndConcatenation:
-  Enabled: false
-
 Style/MethodCallParentheses:
   Enabled: true
-
-Style/MethodDefParentheses:
-  Enabled: false
-
-Style/MethodName:
-  Enabled: false
-
-Style/ModuleFunction:
-  Enabled: false
-
-Style/MultilineBlockChain:
-  Enabled: false
-
-Style/MultilineBlockLayout:
-  Enabled: false
-
-Style/MultilineIfThen:
-  Enabled: false
-
-Style/MultilineOperationIndentation:
-  Enabled: false
-
-Style/MultilineTernaryOperator:
-  Enabled: false
-
-Style/NegatedIf:
-  Enabled: false
-
-Style/NegatedWhile:
-  Enabled: false
-
-Style/NestedTernaryOperator:
-  Enabled: false
-
-Style/Next:
-  Enabled: false
-
-Style/NilComparison:
-  Enabled: false
-
-Style/NonNilCheck:
-  Enabled: false
-
-Style/Not:
-  Enabled: false
-
-Style/NumericLiterals:
-  Enabled: false
-
-Style/OneLineConditional:
-  Enabled: false
-
-Style/OpMethod:
-  Enabled: false
-
-Style/ParenthesesAroundCondition:
-  Enabled: false
-
-Style/PercentLiteralDelimiters:
-  Enabled: false
-
-Style/PercentQLiterals:
-  Enabled: false
-
-Style/PerlBackrefs:
-  Enabled: false
-
-Style/PredicateName:
-  Enabled: false
-
-Style/Proc:
-  Enabled: false
-
-Style/RaiseArgs:
-  Enabled: false
 
 Style/RedundantBegin:
   Enabled: true
@@ -301,29 +151,8 @@ Style/RedundantReturn:
 Style/RedundantSelf:
   Enabled: true
 
-Style/RegexpLiteral:
-  Enabled: false
-
-Style/RescueModifier:
-  Enabled: false
-
-Style/SelfAssignment:
-  Enabled: false
-
-Style/Semicolon:
-  Enabled: false
-
-Style/SignalException:
-  Enabled: false
-
-Style/SingleLineBlockParams:
-  Enabled: false
-
 Style/SingleLineMethods:
   Enabled: true
-
-Style/SpaceBeforeFirstArg:
-  Enabled: false
 
 Style/SpaceAfterColon:
   Enabled: true
@@ -343,18 +172,6 @@ Style/SpaceAfterNot:
 Style/SpaceAfterSemicolon:
   Enabled: true
 
-Style/SpaceBeforeBlockBraces:
-  Enabled: false
-
-Style/SpaceBeforeComma:
-  Enabled: false
-
-Style/SpaceBeforeComment:
-  Enabled: false
-
-Style/SpaceBeforeSemicolon:
-  Enabled: false
-
 Style/SpaceInsideBlockBraces:
   Enabled: true
 
@@ -373,22 +190,10 @@ Style/SpaceInsideHashLiteralBraces:
 Style/SpaceInsideParens:
   Enabled: true
 
-Style/SpaceInsideRangeLiteral:
-  Enabled: false
-
-Style/SpecialGlobalVars:
-  Enabled: false
-
 Style/StringLiterals:
   EnforcedStyle: double_quotes
   ConsistentQuotesInMultiline: true
   Enabled: true
-
-Style/StringLiteralsInInterpolation:
-  Enabled: false
-
-Style/SymbolProc:
-  Enabled: false
 
 Style/Tab:
   Enabled: true
@@ -402,189 +207,6 @@ Style/TrailingCommaInArguments:
 Style/TrailingWhitespace:
   Enabled: true
 
-Style/TrivialAccessors:
-  Enabled: false
-
-Style/UnlessElse:
-  Enabled: false
-
-Style/UnneededCapitalW:
-  Enabled: false
-
-Style/UnneededPercentQ:
-  Enabled: false
-
-Style/VariableInterpolation:
-  Enabled: false
-
-Style/VariableName:
-  Enabled: false
-
-Style/WhenThen:
-  Enabled: false
-
-Style/WhileUntilDo:
-  Enabled: false
-
-Style/WhileUntilModifier:
-  Enabled: false
-
-Style/WordArray:
-  Enabled: false
-
-#################### Metrics ################################
-
-Metrics/AbcSize:
-  Enabled: false
-
-Metrics/BlockNesting:
-  Enabled: false
-
-Metrics/ClassLength:
-  Enabled: false
-
-Metrics/CyclomaticComplexity:
-  Enabled: false
-
-Metrics/LineLength:
-  Enabled: false
-
-Metrics/MethodLength:
-  Enabled: false
-
-Metrics/ParameterLists:
-  Enabled: false
-
-Metrics/PerceivedComplexity:
-  Enabled: false
-
-#################### Lint ################################
-### Warnings
-
-Lint/AmbiguousOperator:
-  Enabled: false
-
-Lint/AmbiguousRegexpLiteral:
-  Enabled: false
-
-Lint/AssignmentInCondition:
-  Enabled: false
-
-Lint/BlockAlignment:
-  Enabled: false
-
-Lint/ConditionPosition:
-  Enabled: false
-
-Lint/Debugger:
-  Enabled: false
-
-Lint/DefEndAlignment:
-  Enabled: false
-
-Lint/DeprecatedClassMethods:
-  Enabled: false
-
-Lint/ElseLayout:
-  Enabled: false
-
-Lint/EmptyEnsure:
-  Enabled: false
-
-Lint/EmptyInterpolation:
-  Enabled: false
-
 Lint/EndAlignment:
-  Enabled: false
-
-Lint/EndInMethod:
-  Enabled: false
-
-Lint/EnsureReturn:
-  Enabled: false
-
-Lint/Eval:
-  Enabled: false
-
-Lint/HandleExceptions:
-  Enabled: false
-
-Lint/InvalidCharacterLiteral:
-  Enabled: false
-
-Lint/LiteralInCondition:
-  Enabled: false
-
-Lint/LiteralInInterpolation:
-  Enabled: false
-
-Lint/Loop:
-  Enabled: false
-
-Lint/ParenthesesAsGroupedExpression:
-  Enabled: false
-
-Lint/RequireParentheses:
-  Enabled: false
-
-Lint/RescueException:
-  Enabled: false
-
-Lint/ShadowingOuterLocalVariable:
-  Enabled: false
-
-Lint/StringConversionInInterpolation:
-  Enabled: false
-
-Lint/UnderscorePrefixedVariableName:
-  Enabled: false
-
-Lint/UnusedBlockArgument:
-  Enabled: false
-
-Lint/UnusedMethodArgument:
-  Enabled: false
-
-Lint/UnreachableCode:
-  Enabled: false
-
-Lint/UselessAccessModifier:
-  Enabled: false
-
-Lint/UselessAssignment:
-  Enabled: false
-
-Lint/UselessComparison:
-  Enabled: false
-
-Lint/UselessElseWithoutRescue:
-  Enabled: false
-
-Lint/UselessSetterCall:
-  Enabled: false
-
-Lint/Void:
-  Enabled: false
-
-##################### Rails ##################################
-
-Rails/ActionFilter:
-  Enabled: false
-
-Rails/Delegate:
-  Enabled: false
-
-Rails/HasAndBelongsToMany:
-  Enabled: false
-
-Rails/Output:
-  Enabled: false
-
-Rails/ReadWriteAttribute:
-  Enabled: false
-
-Rails/ScopeArgs:
-  Enabled: false
-
-Rails/Validation:
-  Enabled: false
+  AlignWith: variable
+  Enabled: true
