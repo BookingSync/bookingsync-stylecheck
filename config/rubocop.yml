@@ -204,9 +204,15 @@ Style/TrailingBlankLines:
 Style/TrailingCommaInArguments:
   Enabled: true
 
-Style/TrailingWhitespace:
+Layout/TrailingWhitespace:
   Enabled: true
 
 Lint/EndAlignment:
-  AlignWith: variable
+  EnforcedStyleAlignWith: variable
   Enabled: true
+
+Style/SingleLineBlockParams:
+  Enabled: true
+
+Style/SymbolArray:
+  Enabled: false
