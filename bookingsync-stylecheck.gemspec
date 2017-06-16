@@ -10,6 +10,6 @@ Gem::Specification.new do |s|
   s.homepage      = "http://gihub.com/BookingSync/bookingsync-stylecheck"
   s.license       = "MIT"
 
-  s.add_dependency "rubocop", "~> 0.46.0"
+  s.add_dependency "rubocop", "~> 0.49.0"
   s.add_development_dependency "rake"
 end
