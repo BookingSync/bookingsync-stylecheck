@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [0.0.10] - 2017-06-19
 - Fix broken config following Rubocop update
 
-## [0.0.9] - 2017-06-19
+## [0.0.9] - 2017-06-19 (broken release)
 - Allow to use and/or (to use for early returns only)
 - Update Rubocop to ~> 0.49.0
 
