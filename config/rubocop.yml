@@ -33,7 +33,7 @@ Style/AlignParameters:
   Enabled: true
 
 Style/AndOr:
-  Enabled: true
+  Enabled: false
 
 Style/ArrayJoin:
   Enabled: true
