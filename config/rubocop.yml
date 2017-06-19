@@ -136,7 +136,7 @@ Style/IndentationWidth:
 Style/LeadingCommentSpace:
   Enabled: true
 
-Style/MethodCallParentheses:
+Style/MethodCallWithoutArgsParentheses:
   Enabled: true
 
 Style/RedundantBegin:
