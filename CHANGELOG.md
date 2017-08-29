@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+- Fix cops naming
+
 ## [0.0.10] - 2017-06-19
 - Fix broken config following Rubocop update
 
