@@ -11,7 +11,7 @@ AllCops:
     - "bin/**/*"
     - "log/**/*"
 
-Style/AccessModifierIndentation:
+Layout/AccessModifierIndentation:
   Enabled: true
 
 Style/AccessorMethodName:
@@ -21,14 +21,14 @@ Style/Alias:
   Enabled: true
   EnforcedStyle: prefer_alias_method
 
-Style/AlignArray:
+Layout/AlignArray:
   Enabled: true
 
-Style/AlignHash:
+Layout/AlignHash:
   EnforcedLastArgumentHashStyle: always_ignore
   Enabled: true
 
-Style/AlignParameters:
+Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
   Enabled: true
 
@@ -56,7 +56,7 @@ Style/BarePercentLiterals:
 Style/BlockComments:
   Enabled: true
 
-Style/BlockEndNewline:
+Layout/BlockEndNewline:
   Enabled: true
 
 Style/BracesAroundHashParameters:
@@ -66,7 +66,7 @@ Style/BracesAroundHashParameters:
 Style/CaseEquality:
   Enabled: true
 
-Style/CaseIndentation:
+Layout/CaseIndentation:
   Enabled: true
 
 Style/CharacterLiteral:
@@ -90,34 +90,34 @@ Style/ColonMethodCall:
 Style/CommentAnnotation:
   Enabled: true
 
-Style/CommentIndentation:
+Layout/CommentIndentation:
   Enabled: true
 
 Style/DefWithParentheses:
   Enabled: true
 
-Style/DotPosition:
+Layout/DotPosition:
   Enabled: true
 
-Style/ElseAlignment:
+Layout/ElseAlignment:
   Enabled: true
 
 Style/EmptyElse:
   Enabled: true
 
-Style/EmptyLineBetweenDefs:
+Layout/EmptyLineBetweenDefs:
   Enabled: true
 
-Style/EmptyLinesAroundBlockBody:
+Layout/EmptyLinesAroundBlockBody:
   Enabled: true
 
-Style/EmptyLinesAroundClassBody:
+Layout/EmptyLinesAroundClassBody:
   Enabled: true
 
-Style/EmptyLinesAroundModuleBody:
+Layout/EmptyLinesAroundModuleBody:
   Enabled: true
 
-Style/EmptyLinesAroundMethodBody:
+Layout/EmptyLinesAroundMethodBody:
   Enabled: true
 
 Style/Encoding:
@@ -127,13 +127,13 @@ Style/Encoding:
 Style/HashSyntax:
   Enabled: true
 
-Style/IndentationConsistency:
+Layout/IndentationConsistency:
   Enabled: true
 
-Style/IndentationWidth:
+Layout/IndentationWidth:
   Enabled: true
 
-Style/LeadingCommentSpace:
+Layout/LeadingCommentSpace:
   Enabled: true
 
 Style/MethodCallWithoutArgsParentheses:
@@ -154,40 +154,40 @@ Style/RedundantSelf:
 Style/SingleLineMethods:
   Enabled: true
 
-Style/SpaceAfterColon:
+Layout/SpaceAfterColon:
   Enabled: true
 
-Style/SpaceAfterComma:
+Layout/SpaceAfterComma:
   Enabled: true
 
-Style/SpaceAroundKeyword:
+Layout/SpaceAroundKeyword:
   Enabled: true
 
-Style/SpaceAfterMethodName:
+Layout/SpaceAfterMethodName:
   Enabled: true
 
-Style/SpaceAfterNot:
+Layout/SpaceAfterNot:
   Enabled: true
 
-Style/SpaceAfterSemicolon:
+Layout/SpaceAfterSemicolon:
   Enabled: true
 
-Style/SpaceInsideBlockBraces:
+Layout/SpaceInsideBlockBraces:
   Enabled: true
 
-Style/SpaceAroundEqualsInParameterDefault:
+Layout/SpaceAroundEqualsInParameterDefault:
   Enabled: true
 
-Style/SpaceAroundOperators:
+Layout/SpaceAroundOperators:
   Enabled: true
 
-Style/SpaceInsideBrackets:
+Layout/SpaceInsideBrackets:
   Enabled: true
 
-Style/SpaceInsideHashLiteralBraces:
+Layout/SpaceInsideHashLiteralBraces:
   Enabled: true
 
-Style/SpaceInsideParens:
+Layout/SpaceInsideParens:
   Enabled: true
 
 Style/StringLiterals:
@@ -195,10 +195,10 @@ Style/StringLiterals:
   ConsistentQuotesInMultiline: true
   Enabled: true
 
-Style/Tab:
+Layout/Tab:
   Enabled: true
 
-Style/TrailingBlankLines:
+Layout/TrailingBlankLines:
   Enabled: true
 
 Style/TrailingCommaInArguments:
