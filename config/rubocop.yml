@@ -209,6 +209,9 @@ Layout/TrailingWhitespace:
 Lint/EndAlignment:
   EnforcedStyleAlignWith: variable
   Enabled: true
+  
+Lint/UselessAssignment
+  Enabled: true
 
 Style/SingleLineBlockParams:
   Enabled: false
