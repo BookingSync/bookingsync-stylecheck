@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.0.11] - 2017-10-16
+- Lint/UselessAssignment enabled
+- Layout/AlignHash disabled
+- SingleLineBlockParams disabled
+- Fix namespace warnings
+
 ## [0.0.10] - 2017-06-19
 - Fix broken config following Rubocop update
 
