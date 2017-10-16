@@ -210,7 +210,7 @@ Lint/EndAlignment:
   EnforcedStyleAlignWith: variable
   Enabled: true
   
-Lint/UselessAssignment
+Lint/UselessAssignment:
   Enabled: true
 
 Style/SingleLineBlockParams:
