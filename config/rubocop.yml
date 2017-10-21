@@ -22,7 +22,7 @@ Style/Alias:
   EnforcedStyle: prefer_alias_method
 
 Layout/AlignArray:
-  Enabled: true
+  Enabled: false
 
 Layout/AlignHash:
   Enabled: false
