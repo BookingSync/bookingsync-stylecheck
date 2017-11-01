@@ -120,7 +120,7 @@ Layout/EmptyLinesAroundMethodBody:
   Enabled: true
 
 Style/Encoding:
-  Enabled: true
+  Enabled: false
   EnforcedStyle: never
 
 Style/HashSyntax:
@@ -209,7 +209,7 @@ Layout/TrailingWhitespace:
 Lint/EndAlignment:
   EnforcedStyleAlignWith: variable
   Enabled: true
-  
+
 Lint/UselessAssignment:
   Enabled: true
 
