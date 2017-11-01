@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.0.12] - 2017-11-01
+- Style/Encoding disabled
+
 ## [0.0.11] - 2017-10-16
 - Lint/UselessAssignment enabled
 - Layout/AlignHash disabled
