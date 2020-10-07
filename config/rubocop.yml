@@ -10,24 +10,26 @@ AllCops:
     - "vendor/**/*"
     - "bin/**/*"
     - "log/**/*"
+    - "node_modules/**/*.js"
+    - "node_modules/**/*.spec"
 
 Layout/AccessModifierIndentation:
   Enabled: true
 
-Style/AccessorMethodName:
+Naming/AccessorMethodName:
   Enabled: true
 
 Style/Alias:
   Enabled: true
   EnforcedStyle: prefer_alias_method
 
-Layout/AlignArray:
+Layout/ArrayAlignment:
   Enabled: false
 
-Layout/AlignHash:
+Layout/HashAlignment:
   Enabled: false
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
   Enabled: true
 
@@ -40,7 +42,7 @@ Style/ArrayJoin:
 Style/AsciiComments:
   Enabled: true
 
-Style/AsciiIdentifiers:
+Naming/AsciiIdentifiers:
   Enabled: true
 
 Style/Attr:
@@ -58,10 +60,6 @@ Style/BlockComments:
 Layout/BlockEndNewline:
   Enabled: true
 
-Style/BracesAroundHashParameters:
-  Enabled: true
-  EnforcedStyle: context_dependent
-
 Style/CaseEquality:
   Enabled: true
 
@@ -71,7 +69,7 @@ Layout/CaseIndentation:
 Style/CharacterLiteral:
   Enabled: true
 
-Style/ClassAndModuleCamelCase:
+Naming/ClassAndModuleCamelCase:
   Enabled: true
 
 Style/ClassCheck:
@@ -121,7 +119,6 @@ Layout/EmptyLinesAroundMethodBody:
 
 Style/Encoding:
   Enabled: false
-  EnforcedStyle: never
 
 Style/HashSyntax:
   Enabled: true
@@ -180,7 +177,7 @@ Layout/SpaceAroundEqualsInParameterDefault:
 Layout/SpaceAroundOperators:
   Enabled: true
 
-Layout/SpaceInsideBrackets:
+Layout/SpaceInsideArrayLiteralBrackets:
   Enabled: true
 
 Layout/SpaceInsideHashLiteralBraces:
@@ -194,10 +191,10 @@ Style/StringLiterals:
   ConsistentQuotesInMultiline: true
   Enabled: true
 
-Layout/Tab:
+Layout/IndentationStyle:
   Enabled: true
 
-Layout/TrailingBlankLines:
+Layout/TrailingEmptyLines:
   Enabled: true
 
 Style/TrailingCommaInArguments:
@@ -206,7 +203,7 @@ Style/TrailingCommaInArguments:
 Layout/TrailingWhitespace:
   Enabled: true
 
-Lint/EndAlignment:
+Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
   Enabled: true
 
