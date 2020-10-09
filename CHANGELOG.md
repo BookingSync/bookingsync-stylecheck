@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.0.13] - 2020-10-09
+- Update Rubocop to ~> 0.92.0 and make config compatible with it
+
 ## [0.0.12] - 2017-11-01
 - Style/Encoding disabled
 
