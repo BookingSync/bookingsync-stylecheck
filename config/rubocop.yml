@@ -1,6 +1,7 @@
 # These are all the cops that are enabled in the default configuration.
 AllCops:
   DisabledByDefault: true
+  SuggestExtensions: false
   # If .ruby-version exists and it contains an MRI version it is used.
   # Otherwise we fallback to the oldest officially supported Ruby version.
   TargetRubyVersion: ~
@@ -122,6 +123,7 @@ Style/Encoding:
 
 Style/HashSyntax:
   Enabled: true
+  EnforcedShorthandSyntax: never
 
 Layout/IndentationConsistency:
   Enabled: true
